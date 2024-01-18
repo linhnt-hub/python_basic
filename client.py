@@ -9,6 +9,7 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
+
 import socket
 
 T_PORT = 8080
@@ -17,7 +18,7 @@ TCP_IP = '127.0.0.1'
 
 BUF_SIZE = 1024
 
-MSG = "Hello karl"
+MSG = "Hello Linh"
 
 # create a socket object name 'k'
 
