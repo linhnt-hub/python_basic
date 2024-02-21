@@ -9,7 +9,7 @@ def get_list_file(file_path, file_type):
       file_list = files[2] #Get file_list
   
   for i in range(len(file_list)):
-    str = "^.*" + file_type + "$"
+    str = "^.*\." + file_type + "$"
     x= re.search(str,file_list[i])
     if x:
         list_file_result.append(file_list[i])
