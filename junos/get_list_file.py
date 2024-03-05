@@ -15,3 +15,10 @@ def get_list_file(file_path, file_type):
         list_file_result.append(file_list[i])
   #list_file_result_str = [str(x) for x in list_file_result]     # Change string format
   return list_file_result
+<<<<<<< Updated upstream
+=======
+ 
+#file_path = '/opt/SVTECH-Junos-Automation/Junos_tableview/'
+#file_type = 'yml'
+#list_file_result = get_list_file(file_path, file_type) # List file in directory
+>>>>>>> Stashed changes
